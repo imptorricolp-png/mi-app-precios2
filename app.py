@@ -13,7 +13,7 @@ df = pd.read_excel("precios.xlsx")
 # 3. Configurar la API KEY (Aquí estaba el error)
 # Usamos st.secrets para leer la clave que pegaste en Streamlit Cloud
 if "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" in st.secrets:
-    api_key = st.secrets["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]
+    api_key = st.secrets["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"]
 else:
     api_key = "TU_API_KEY_LOCAL_AQUI" # Solo para cuando pruebes en tu PC
 
