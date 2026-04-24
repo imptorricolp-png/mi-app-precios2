@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import os  # <--- ASEGÚRATE DE QUE ESTA LÍNEA ESTÉ AQUÍ
 from langchain_experimental.agents import create_pandas_dataframe_agent
 from langchain_openai import ChatOpenAI
 
