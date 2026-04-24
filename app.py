@@ -10,11 +10,11 @@ st.title("Consultor de Precios con IA 🤖")
 
 # 2. Gestión de la API KEY (FORZADO PARA CLOUD)
 # Intentamos obtener la clave de los Secrets de Streamlit
-if "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" in st.secrets:
-    openai_api_key = st.secrets["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"]
+if "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" in st.secrets:
+    openai_api_key = st.secrets["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"]
 else:
     # Si no encuentra el Secret, intentará buscarla en las variables del sistema (local)
-    openai_api_key = os.getenv("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")
+    openai_api_key = os.getenv("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")
 
 # 3. Cargar el Excel
 try:
